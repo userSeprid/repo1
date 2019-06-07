@@ -12,8 +12,7 @@ public final class CreatureFactory {
 
     private static final int NUMBER_OF_AVAILABLE_RACES = 5;
 
-    private CreatureFactory() {
-    }
+    private CreatureFactory() {}
 
     public static Creature getCreature(
             final CreatureType creatureType,
